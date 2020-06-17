@@ -12,5 +12,5 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  planeteer_calls.find { |element| valid_calls.includelearn?(element)}
+  planeteer_calls.find { |element| valid_calls.include?(element)}
 end
