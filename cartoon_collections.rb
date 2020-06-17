@@ -12,10 +12,5 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  count = 0
-    while count < planeteer_calls.length
-      planeteer_calls.find { |element| element == valid_calls[count]}
-      return element
-      count += 1
-    end
+  planeteer_calls.find { |element| valid_calls.include?(element)}
 end
