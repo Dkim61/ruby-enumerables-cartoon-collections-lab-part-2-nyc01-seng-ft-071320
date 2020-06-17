@@ -18,5 +18,4 @@ def find_valid_calls(planeteer_calls)
       return element
       count += 1
     end
-  
 end
